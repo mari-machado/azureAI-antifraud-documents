@@ -23,10 +23,15 @@ Implementar uma solução capaz de analisar documentos armazenados no Azure Blob
 
 ## 🏗️ Estrutura do Projeto
 
-- Configuração de Storage Account e containers Blob  
-- Integração com o serviço Azure Document Intelligence  
-- Processamento e análise de documentos enviados  
-- Retorno das informações extraídas de forma organizada  
+```tree
+📂 azureAI-antifraud-documents
+
+├── 🐍 antifraud-validator.py  # Script principal: análise, extração e validações.
+├── 📖 README.md               # Documentação oficial do projeto.
+├── ⚖️ LICENSE                 # Licença de uso (MIT).
+└── 🚫 .gitignore              # Arquivos e pastas ignorados pelo Git.
+
+```
 
 ## 📚 Aprendizados
 
